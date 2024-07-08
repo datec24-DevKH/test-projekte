@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "personio",
+      "source": "@personio/v1.0#v91fn3elesmgamv",
+      "integrity": "sha512-a0yomgA9Bzsv9OFvP1oAR31WKqtjbF7uNrEcb4x6sT3rjLx2w4TyKCL+QpP1c9L+dXL9r2e3MP1WVrLcAX8PRA==",
+      "installerVersion": "6.1.1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+import type { FromSchema } from 'json-schema-to-ts';
+import * as schemas from './schemas';
+
+export type GetXmlMetadataParam = FromSchema<typeof schemas.GetXml.metadata>;
+export type GetXmlResponse200 = FromSchema<typeof schemas.GetXml.response['200']>;
+export type PostRecruitingApplicantBodyParam = FromSchema<typeof schemas.PostRecruitingApplicant.body>;
+export type PostRecruitingApplicantMetadataParam = FromSchema<typeof schemas.PostRecruitingApplicant.metadata>;
+export type PostRecruitingApplicantResponse200 = FromSchema<typeof schemas.PostRecruitingApplicant.response['200']>;
+export type PostRecruitingApplicantResponse400 = FromSchema<typeof schemas.PostRecruitingApplicant.response['400']>;
+export type PostRecruitingApplicantResponse403 = FromSchema<typeof schemas.PostRecruitingApplicant.response['403']>;
+export type PostRecruitingApplicantResponse422 = FromSchema<typeof schemas.PostRecruitingApplicant.response['422']>;
+export type PostRecruitingApplicantResponse500 = FromSchema<typeof schemas.PostRecruitingApplicant.response['500']>;
+export type PostRecruitingApplicantResponse503 = FromSchema<typeof schemas.PostRecruitingApplicant.response['503']>;
+export type PostV1RecruitingApplicationsBodyParam = FromSchema<typeof schemas.PostV1RecruitingApplications.body>;
+export type PostV1RecruitingApplicationsDocumentsBodyParam = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.body>;
+export type PostV1RecruitingApplicationsDocumentsMetadataParam = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.metadata>;
+export type PostV1RecruitingApplicationsDocumentsResponse200 = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.response['200']>;
+export type PostV1RecruitingApplicationsDocumentsResponse413 = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.response['413']>;
+export type PostV1RecruitingApplicationsDocumentsResponse422 = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.response['422']>;
+export type PostV1RecruitingApplicationsDocumentsResponse500 = FromSchema<typeof schemas.PostV1RecruitingApplicationsDocuments.response['500']>;
+export type PostV1RecruitingApplicationsMetadataParam = FromSchema<typeof schemas.PostV1RecruitingApplications.metadata>;
+export type PostV1RecruitingApplicationsResponse400 = FromSchema<typeof schemas.PostV1RecruitingApplications.response['400']>;
+export type PostV1RecruitingApplicationsResponse403 = FromSchema<typeof schemas.PostV1RecruitingApplications.response['403']>;
+export type PostV1RecruitingApplicationsResponse500 = FromSchema<typeof schemas.PostV1RecruitingApplications.response['500']>;

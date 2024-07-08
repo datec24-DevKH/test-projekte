@@ -1,0 +1,79 @@
+section{
+    background: linear-gradient(90deg,#000,#1c4b90 55%);
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    color:#d9dada;
+}
+
+.maxBegrenzung{
+    text-decoration-line: underline;
+}
+
+.fetterText{
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.kontaktFormular{
+    background: aliceblue !important;
+}
+
+
+.kontaktFormularContainer{
+    max-width: 40%;
+    padding-top: 4rem;
+}
+
+.formularTitel{
+    color: #000;
+    text-align: left;
+}
+
+.iconFormular{
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+.formularUntertitel{
+    color: #000;
+    text-align: left;
+}
+
+.inputFeldFormular{
+    background: aliceblue !important;
+    padding-top: 2rem;
+}
+
+.inputFeldFormularContainer{
+    max-width: 40%;
+}
+
+.label{
+    padding-top: 1rem;
+}
+
+.dateiAuswahl{
+    padding-top: 1rem;
+}
+
+.form-check{
+    padding-top: 1rem;
+}
+
+.buttonAbstand{
+    padding-top: 1rem;
+}
+
+.btn{
+    width: 100%;
+}
